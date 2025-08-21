@@ -1,0 +1,32 @@
+.ürünler {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+img {
+    padding: 10px 10px 0px 20px;
+    ;
+}
+
+.ürün-bilgi {
+    padding: 5px 10px 15px 20px;
+}
+
+p {
+    padding: 5px 10px 15px 20px;
+}
+
+h1 {
+    color: #FF0066;
+    text-align: center;
+}
+
+h2 {
+    color: #934790;
+    text-align: center;
+}
+
+h3 {
+    color: #FF8040;
+    /* text-align: center; */
+}
