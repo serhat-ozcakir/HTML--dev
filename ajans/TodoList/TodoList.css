@@ -1,0 +1,47 @@
+.liste {
+    text-decoration: line-through;
+    color: green;
+}
+
+.liste::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+}
+
+.list-group {
+    /* background-color: aqua; */
+    padding: inherit;
+    border-radius: 0%;
+}
+
+.item-new {
+    background-color: rgb(226, 226, 238);
+}
+
+#userList li {
+    margin: 0;
+    /* li’lerin marginini sıfırla */
+    padding-left: 35px;
+}
+
+
+#toast {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    /* sağ üst */
+    z-index: 9999;
+    display: flex;
+    justify-content: space-around;
+}
+
+.toast {
+    width: 350px;
+    max-width: 50%;
+}
+
+.toast-body {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="TodoList.css">
+
+    <title>TodoList</title>
+</head>
+
+<body>
+    <div id="alert"></div>
+    <div class="container">
+        <div id="toast"></div>
+        <div style="background-color: coral;" class="row">
+            <div id="toast" class="toast-container "></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8  ">
+                <h1 class="text-center py-3">Meine TodoList</h1>
+                <form action="" id="userForm">
+                    <div class="mb-3 d-flex  py-2">
+                        <label for="toDoList" class="form-label"></label>
+                        <input type="text" class="form-control rounded-0" id="toDoList" name="toDoList"
+                            placeholder="Bugün ne yapacaksın?" aria-describedby="emailHelp">
+                        <button type="submit" class="btn btn-primary rounded-0">Ekle</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-2"></div>
+
+
+            <ul class="list-group" id="userList">
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="TodoList.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
